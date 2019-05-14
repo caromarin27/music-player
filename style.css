@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("analogue-antique-audio-290657.jpg");
+  background-size: cover;
+  font-family: 'Russo One', sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  position: absolute;
+  top: 20%;
+  -webkit-transform: translateX(270px);
+          transform: translateX(270px);
+  color: #ffc600;
+  font-size: 62px;
+  text-shadow: 10px 5px 10px black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  position: absolute;
+  bottom: 20%;
+  left: 45%;
+  -webkit-transform: translateX(-200px);
+          transform: translateX(-200px);
+  color: black;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.keys .key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.keys .key kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.keys .key .sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+.playing {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-color: #ffc600;
+  -webkit-box-shadow: 0px 0px 10px #ffc600;
+          box-shadow: 0px 0px 10px #ffc600;
+}
+/*# sourceMappingURL=style.css.map */
